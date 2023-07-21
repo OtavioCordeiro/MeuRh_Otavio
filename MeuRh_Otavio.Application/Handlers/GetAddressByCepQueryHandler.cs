@@ -2,11 +2,6 @@
 using MeuRh_Otavio.Application.Interfaces;
 using MeuRh_Otavio.Application.Queries;
 using MeuRh_Otavio.Application.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MeuRh_Otavio.Application.Handlers
 {

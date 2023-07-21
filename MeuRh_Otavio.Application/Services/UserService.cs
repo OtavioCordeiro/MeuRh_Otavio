@@ -1,13 +1,6 @@
 ﻿using MeuRh_Otavio.Application.Interfaces;
 using MeuRh_Otavio.Domain.Entities;
 using MeuRh_Otavio.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using BCrypt.Net;
 using MeuRh_Otavio.Application.ViewModel;
 using AutoMapper;
 using MeuRh_Otavio.Application.ViewModel.Requests;

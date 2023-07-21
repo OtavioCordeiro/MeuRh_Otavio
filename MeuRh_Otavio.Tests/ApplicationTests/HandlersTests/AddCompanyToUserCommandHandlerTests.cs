@@ -5,11 +5,6 @@ using MeuRh_Otavio.Application.Handlers;
 using MeuRh_Otavio.Domain.Entities;
 using MeuRh_Otavio.Domain.Interfaces;
 using NSubstitute;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MeuRh_Otavio.Tests.ApplicationTests.HandlersTests
 {

@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuRh_Otavio.Api", "MeuRh_Otavio.Api\MeuRh_Otavio.Api.csproj", "{63BAF606-B123-4E23-A4A9-45C271C4608F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuRh_Otavio.Api", "MeuRh_Otavio.Api\MeuRh_Otavio.Api.csproj", "{63BAF606-B123-4E23-A4A9-45C271C4608F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuRh_Otavio.Application", "MeuRh_Otavio.Application\MeuRh_Otavio.Application.csproj", "{03F1FD7E-9A18-4702-9F5B-ECBF389A9254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuRh_Otavio.Application", "MeuRh_Otavio.Application\MeuRh_Otavio.Application.csproj", "{03F1FD7E-9A18-4702-9F5B-ECBF389A9254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuRh_Otavio.Domain", "MeuRh_Otavio.Domain\MeuRh_Otavio.Domain.csproj", "{53517265-2FF2-4A57-8A96-DE808E3A0858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuRh_Otavio.Domain", "MeuRh_Otavio.Domain\MeuRh_Otavio.Domain.csproj", "{53517265-2FF2-4A57-8A96-DE808E3A0858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuRh_Otavio.Infrastructure", "MeuRh_Otavio.Infrastructure\MeuRh_Otavio.Infrastructure.csproj", "{E2939276-06AC-4142-9ABD-82A68C819A05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuRh_Otavio.Infrastructure", "MeuRh_Otavio.Infrastructure\MeuRh_Otavio.Infrastructure.csproj", "{E2939276-06AC-4142-9ABD-82A68C819A05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuRh_Otavio.Tests", "MeuRh_Otavio.Tests\MeuRh_Otavio.Tests.csproj", "{07679778-97D1-4F5F-9E4F-C2C0B20DFBEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuRh_Otavio.Tests", "MeuRh_Otavio.Tests\MeuRh_Otavio.Tests.csproj", "{07679778-97D1-4F5F-9E4F-C2C0B20DFBEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuRh_Otavio.Infra.Data", "MeuRh_Otavio.Infra.Data\MeuRh_Otavio.Infra.Data.csproj", "{5160000B-E6E6-4E20-B34B-C5F9A95FEF03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuRh_Otavio.Infra.Ioc", "MeuRh_Otavio.Infra.Ioc\MeuRh_Otavio.Infra.Ioc.csproj", "{737E117A-2162-49C6-BA18-CFA462D8437F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{07679778-97D1-4F5F-9E4F-C2C0B20DFBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07679778-97D1-4F5F-9E4F-C2C0B20DFBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07679778-97D1-4F5F-9E4F-C2C0B20DFBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5160000B-E6E6-4E20-B34B-C5F9A95FEF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5160000B-E6E6-4E20-B34B-C5F9A95FEF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5160000B-E6E6-4E20-B34B-C5F9A95FEF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5160000B-E6E6-4E20-B34B-C5F9A95FEF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737E117A-2162-49C6-BA18-CFA462D8437F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737E117A-2162-49C6-BA18-CFA462D8437F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737E117A-2162-49C6-BA18-CFA462D8437F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737E117A-2162-49C6-BA18-CFA462D8437F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -30,7 +30,11 @@
   <ItemGroup>
     <ProjectReference Include="..\MeuRh_Otavio.Application\MeuRh_Otavio.Application.csproj" />
     <ProjectReference Include="..\MeuRh_Otavio.Domain\MeuRh_Otavio.Domain.csproj" />
-    <ProjectReference Include="..\MeuRh_Otavio.Infrastructure\MeuRh_Otavio.Infrastructure.csproj" />
+    <ProjectReference Include="..\MeuRh_Otavio.Infra.Ioc\MeuRh_Otavio.Infra.Ioc.csproj" />    
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ApplicationTests\Services\" />
   </ItemGroup>
 
 </Project>

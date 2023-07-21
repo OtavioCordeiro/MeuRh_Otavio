@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using MeuRh_Otavio.Application.Interfaces;
 using MeuRh_Otavio.Application.Queries;
 using Microsoft.AspNetCore.Mvc;
 

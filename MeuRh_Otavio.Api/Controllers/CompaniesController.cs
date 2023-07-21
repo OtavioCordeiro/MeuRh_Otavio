@@ -2,7 +2,6 @@
 using MeuRh_Otavio.Application.Commands;
 using MeuRh_Otavio.Application.Queries;
 using MeuRh_Otavio.Application.ViewModel;
-using MeuRh_Otavio.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MeuRh_Otavio.Api.Controllers

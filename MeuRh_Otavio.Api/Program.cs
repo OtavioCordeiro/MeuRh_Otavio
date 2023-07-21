@@ -1,12 +1,7 @@
-using MeuRh_Otavio.Api.Controllers;
-using MeuRh_Otavio.Application.Commands;
-using MeuRh_Otavio.Application.Handlers;
-using MeuRh_Otavio.Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using System.Reflection;
 using System.Text;
+using MeuRh_Otavio.Infra.Ioc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,8 +13,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddInfrasctructure(builder.Configuration);
-
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateCompanyCommandHandler).Assembly));
 
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]));

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MeuRh_Otavio.Application.ViewModel
+﻿namespace MeuRh_Otavio.Application.ViewModel
 {
     public class UserViewModel
     {
