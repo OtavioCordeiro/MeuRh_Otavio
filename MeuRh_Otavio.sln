@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuRh_Otavio.Application", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuRh_Otavio.Domain", "MeuRh_Otavio.Domain\MeuRh_Otavio.Domain.csproj", "{53517265-2FF2-4A57-8A96-DE808E3A0858}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuRh_Otavio.Infrastructure", "MeuRh_Otavio.Infrastructure\MeuRh_Otavio.Infrastructure.csproj", "{E2939276-06AC-4142-9ABD-82A68C819A05}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuRh_Otavio.Tests", "MeuRh_Otavio.Tests\MeuRh_Otavio.Tests.csproj", "{07679778-97D1-4F5F-9E4F-C2C0B20DFBEE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuRh_Otavio.Infra.Data", "MeuRh_Otavio.Infra.Data\MeuRh_Otavio.Infra.Data.csproj", "{5160000B-E6E6-4E20-B34B-C5F9A95FEF03}"
@@ -35,10 +33,6 @@ Global
 		{53517265-2FF2-4A57-8A96-DE808E3A0858}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53517265-2FF2-4A57-8A96-DE808E3A0858}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53517265-2FF2-4A57-8A96-DE808E3A0858}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2939276-06AC-4142-9ABD-82A68C819A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2939276-06AC-4142-9ABD-82A68C819A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2939276-06AC-4142-9ABD-82A68C819A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2939276-06AC-4142-9ABD-82A68C819A05}.Release|Any CPU.Build.0 = Release|Any CPU
 		{07679778-97D1-4F5F-9E4F-C2C0B20DFBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07679778-97D1-4F5F-9E4F-C2C0B20DFBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07679778-97D1-4F5F-9E4F-C2C0B20DFBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU

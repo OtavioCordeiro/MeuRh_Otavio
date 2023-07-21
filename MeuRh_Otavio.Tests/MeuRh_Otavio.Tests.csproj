@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -9,10 +9,9 @@
     <IsTestProject>true</IsTestProject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AutoFixture" Version="4.18.0" />
-    <PackageReference Include="AutoFixture.AutoNSubstitute" Version="4.18.0" />
-    <PackageReference Include="AutoFixture.Xunit2" Version="4.18.0" />
+  <ItemGroup>      
+    <PackageReference Include="AutoFixture.AutoNSubstitute" Version="4.18.0" />      
+    <PackageReference Include="AutoFixture.Xunit2" Version="4.18.0" />  
     <PackageReference Include="FluentAssertions" Version="6.11.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
     <PackageReference Include="NSubstitute" Version="5.0.0" />
@@ -29,12 +28,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MeuRh_Otavio.Application\MeuRh_Otavio.Application.csproj" />
-    <ProjectReference Include="..\MeuRh_Otavio.Domain\MeuRh_Otavio.Domain.csproj" />
-    <ProjectReference Include="..\MeuRh_Otavio.Infra.Ioc\MeuRh_Otavio.Infra.Ioc.csproj" />    
+    <ProjectReference Include="..\MeuRh_Otavio.Domain\MeuRh_Otavio.Domain.csproj" />       
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ApplicationTests\Services\" />
+    <Folder Include="FixtureCustomizations\" />
   </ItemGroup>
 
 </Project>
